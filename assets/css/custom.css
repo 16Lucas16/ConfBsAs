@@ -1,0 +1,68 @@
+/*------------------VARIABLES------------------*/
+:root {
+    --bs-formbutton: #96c93e;
+    --bs-ticketbutton: #29a744;
+    --bs-footercolor: linear-gradient(115.7deg, rgb(6, 24, 51) 7.6%, rgb(35, 66, 112) 99.8%);
+}
+
+/*-------------------GENERAL-------------------*/
+.bg-graydark {
+    background-color: var(--bs-gray-dark);
+}
+
+.bg-green, .btn:hover {
+    background-color: var(--bs-ticketbutton);
+}
+
+button {
+    background-color: transparent;
+}
+
+/*-----------------NAVEGACIÓN------------------*/
+.nav-link {
+    color: var(--bs-gray-500);
+}
+
+.nav-link:hover, footer a {
+    color: var(--bs-white);
+}
+
+.nav-link.darkgreen {
+    color: var(--bs-green);
+}
+
+.nav-link.darkgreen:hover {
+    color: var(--bs-teal);
+}
+
+/*------------------CARRUSEL-------------------*/
+.carousel-caption {
+    position: absolute;
+    left: 55%;
+    right: 5%;
+    bottom: 23%;
+}
+
+.carousel-item img {
+    filter: brightness(60%)
+}
+
+/*------------------INSIGNIAS------------------*/
+.badge {
+    font-weight: 900!important;
+}
+
+.text-bg-info {
+    background-color: #17a2b8!important;
+    font-size: 0.8em;
+}
+
+/*-----------------FORMULARIO------------------*/
+.btn {
+    background-color: var(--bs-formbutton);
+}
+
+/*----------------PIE DE PÁGINA----------------*/
+footer {
+    background: var(--bs-footercolor);
+}
