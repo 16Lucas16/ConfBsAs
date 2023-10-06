@@ -1,3 +1,5 @@
+Link de la página del Proyecto: https://16lucas16.github.io/ConfBsAs/
+
 Proyecto creado para la Comisión 23560 de Codo A Codo - Java Full Stack.
 
 Consiste en un clon de la página ficticia Conf Bs As, utilizando las herramientas, elementos y componentes de Bootstrap 5.3.1: barra de navegación, carrusel con texto superpuesto, cartas, insignias, carta horizontal, formulario, pie de página, y hoja de CSS personalizable.
